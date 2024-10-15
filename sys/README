@@ -1,0 +1,14 @@
+sys_init.bin: Board initialization, include PLL initialization and fan startup.
+
+
+*Notes:
+
+The MD5 mentioned below is the md5sum value of System Initialization Firmware.
+===============================================================================
+Release Notes
+===============================================================================
+
+-------------------------------------------------------------------------------
+Latest Release Version:
+MD5: d6df8dba1a7b66163a0e61b0f0fe2cab
+-------------------------------------------------------------------------------

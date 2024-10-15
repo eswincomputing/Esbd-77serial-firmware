@@ -1,0 +1,18 @@
+ddr_fw.bin: DDR trainning and initialization firmware.
+ddr_fw_ecc.bin: DDR trainning and initialization firmware with ECC mode.
+
+*Notes:
+  The ddr_fw.bin is now able to cover from 8GB to 32GB size of LPDDR4/4X and LPDDR5.
+  The default configuration frequency is the highest specified, for example LP4x/4 is 4266MHz and LP5 is 6400MHz.
+  When using ecc mode firmware, the system needs to reserve 1/8 of the ddr space for ECC. 
+
+The MD5 mentioned below is the md5sum value of DDR Firmware.
+===============================================================================
+Release Notes
+===============================================================================
+
+-------------------------------------------------------------------------------
+Latest Release Version: 1.4
+ddr_fw.bin:     MD5: 49c4f2a63e99416d3ff26d1477def669
+ddr_fw_ecc.bin: MD5: df1a8711956de624a5c2acc6f75ce823
+-------------------------------------------------------------------------------

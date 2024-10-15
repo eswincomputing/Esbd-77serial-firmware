@@ -1,0 +1,43 @@
+STM32F407VET6_BMC.elf is MCU firmware that needs to be flashed into
+MCU using JTAG interface.
+
+For steps to flash MCU firmware, please refer to document
+"hifive-premier-p550-software-reference-manual.pdf".
+
+The MD5 mentioned below is the md5sum value of STM32F407VET6_BMC.elf.
+===============================================================================
+Release Notes
+===============================================================================
+
+-------------------------------------------------------------------------------
+Release Version: 2.6
+MD5:963867075cb31ae14ab8f9e7b71939db
+-------------------------------------------------------------------------------
+
+-----------+
+Change Log |
+-----------+
+
+-------------------------------------------------------------------------------
+Version: 2.6, 2024-09-05
+MD5:963867075cb31ae14ab8f9e7b71939db
+-------------------------------------------------------------------------------
+CR: Check CBInfo when SOM is powered up to guarantee A/B partition of CBInfo
+    coulde be recovered.
+TR: Bug fix for eeprom write. Add tWR 5ms between each eeprom write.
+
+-------------------------------------------------------------------------------
+Version: 2.5, 2024-08-05
+MD5:07c70bd66d6bbec85ae9dbc217cfd90d
+-------------------------------------------------------------------------------
+CR: Support som console redirection to UART or Telnet.
+TR: Make the four buttons(Power, SOC Reset, Recovery, MCU RESET) be handled as
+    soon as the MCU LED is on.
+TR: Fix the bug of Bootsel IO pins was changed by mistake
+
+-------------------------------------------------------------------------------
+Version: 2.4, 2024-06-27
+MD5:9304bded3b9f02d5b9ef3dbce3edee50
+-------------------------------------------------------------------------------
+TR: Add checksum for SomPwrMgtDIPInfo
+-------------------------------------------------------------------------------
