@@ -1,0 +1,15 @@
+bootchain_die0.bin: Bootchain firmware of die0 which include sys_init, ddr_init, d2d_init and bootloader.
+bootchain_die1.bin: Bootchain firmware of die0 which include sys_init, ddr_init and d2d_init.
+
+*Notes:
+
+The MD5 mentioned below is the md5sum value of Bootchain Firmware.
+===============================================================================
+Release Notes
+===============================================================================
+
+-------------------------------------------------------------------------------
+Latest Release Version: 
+bootchain_die0.bin MD5: 1fa7a01e8d876d11d714fcef35a00afe
+bootchain_die1.bin MD5: 48e741df88b3977a37f3002f7966704a
+-------------------------------------------------------------------------------
